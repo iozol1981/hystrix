@@ -19,7 +19,7 @@ public class SpringCloudController {
 
     @GetMapping("/feign")
     public String feignInvocation() {
-        log.info("feignInvocation() was invoked...!");
+        log.info("spring-cloud feignInvocation() was invoked...!");
 
         return fakeFeignClient.getData();
     }
