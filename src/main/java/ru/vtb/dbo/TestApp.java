@@ -11,7 +11,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -22,7 +21,6 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableHystrixDashboard
 @EnableCircuitBreaker
 @Slf4j
-@EnableTransactionManagement
 @EnableFeignClients
 @RestController
 @SpringBootApplication
