@@ -1,0 +1,5 @@
+{ "request": { "url": "/data",
+               "method": "GET" },
+  "response": { "status": 200,
+                "fixedDelayMilliseconds": 2000,
+                "body": "fake service was invoked!\n" }}
